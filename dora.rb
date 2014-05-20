@@ -21,7 +21,7 @@ class Dora < Sinatra::Base
   use LogUtils
 
   get '/' do
-    "Hi, I'm Dora!"
+    "Hi, I'm Dora! fo realz yo"
   end
 
   get '/find/:filename' do
