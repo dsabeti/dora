@@ -21,7 +21,8 @@ class Dora < Sinatra::Base
   use LogUtils
 
   get '/' do
-'<html><body><img width="100%" src="http://www.chillestmonkey.com/img/monkey.gif" /></body></html>'
+ "Hi I'm Dora!"
+#'<html><body><img width="100%" src="http://www.chillestmonkey.com/img/monkey.gif" /></body></html>'
   end
 
   get '/find/:filename' do
